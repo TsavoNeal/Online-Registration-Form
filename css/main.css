@@ -1,0 +1,253 @@
+/**********************
+******BASE STYLES******
+**********************/
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #D4D6CF;
+}
+
+header {
+	background-color: #13182B;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 2.5%;
+	font-size: 0.75em;
+} 
+
+form {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+label {
+	display: block;
+	color: #3c3c3c;
+}
+
+h2 {
+	color: #13182B;
+}
+
+legend {
+	color: #13182B;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 5% 0%;	
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 5% 0%;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  text-indent: 10px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+input:focus,
+textarea:focus {
+	border: 3px solid;
+	border-color: #BA2F28;
+	transition: border .15s ease-in-out;
+}
+::-webkit-input-placeholder { 
+	text-align: right; 
+	font-style: italic;
+	padding-right: 5%;
+}
+img {
+	max-width: 50%;
+}
+
+#zip {
+	width: 50%;
+}
+#topics,
+#user_projects,
+#user_help {
+	height: 100px;
+}
+
+.inline-field input,
+.inline-field label {
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 20px;
+}
+
+button {
+	padding: 23px 39px 22px 39px;
+	color: #fff;
+	background-color: #BA2F28;
+	border-radius: 5px;	
+	width: 100%;
+	border: none;
+	font-size: 1.25em;
+	margin-bottom: 5%;	
+}
+
+fieldset {
+	border: none;
+}
+
+.style1 {
+	border: none;
+	background-color: #55988F;
+	color: #55988F;
+	height: 6px;
+	width: 95%;
+}
+.style2 {
+	border: none;
+	background-color: #55988F;
+	color: #55988F;
+	height: 3px;
+	width: 95%;
+}
+
+
+.contact-info label {
+	margin-bottom: 2.5%;
+}
+
+.intro {
+	padding: 5%;
+	text-align: center;
+}
+.intro p {
+	color: #3c3c3c;	
+}
+.outro {
+	text-align: center;
+}
+.outro img {
+	padding: 5% 0;
+}
+
+.copyright {
+	font-style: italic;
+	color: #3c3c3c;
+	text-align: center;
+}
+
+/**********************
+******MEDIA QUERIES****
+**********************/
+
+/*****For Desktops********/
+
+@media (min-width:760px) {
+
+	form {
+	  max-width: 65%;
+	}
+
+	.contact-info label {
+		display: inline-block;
+		width: 17.5%;
+		text-align: left;
+		font-size: 0.825em;
+	}
+
+	input[type="text"],
+	input[type="password"],
+	input[type="date"],
+	input[type="datetime"],
+	input[type="email"],
+	input[type="number"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="time"],
+	input[type="url"],
+	select {
+	  width: 80%;
+	  padding: 2.5% 0%;
+	}
+	#zip {
+		width: 33%;
+	}	
+
+	img {
+		max-width: 33%;
+	}
+
+}
+
+/****For Wide Screens****/
+
+@media (min-width:1024px) {
+
+	form {
+	  max-width: 40%;
+	}
+
+	header {
+		padding: 1%;
+	}
+
+	.intro {
+		padding: 2.5%;
+	}
+	.intro img {
+		max-width: 10%;
+	}
+	img {
+		max-width: 25%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
